@@ -1,0 +1,39 @@
+.mainimg{
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgba(16, 99, 78, 0.9);
+
+    i{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mainimg{
+        
+        text-align: center;
+
+        h1{
+            font-size: 2rem;
+        }
+
+        i{
+            font-size: 1rem;
+        }
+    }
+    
+}
